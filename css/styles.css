@@ -1,0 +1,69 @@
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: gainsboro;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pool {
+
+    width: 45em;
+    height: 25em;
+
+    background-color: cornflowerblue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.float {
+
+    height: 8em;
+    width: 8em;
+}
+
+#float1 {
+
+    background-color: fuchsia;
+    transition: 2s;
+
+}
+
+#float1:hover {
+
+    border-radius: 10% 44% 22% 0%;
+    transition: 2s;
+
+    background-color: greenyellow;
+    margin: 1em 0em 3em 2em;
+    cursor: pointer;
+}
+
+#float2 {
+
+    background-color: chocolate;
+    transition: 2s;
+
+}
+
+#float2:hover {
+
+    border-radius: 48% 12% 0% 0%;
+    transition: 0.5s;
+
+    background-color: rgb(20, 58, 84);
+    margin: 0em 0em 4em 4em;
+    cursor: pointer;
+}
